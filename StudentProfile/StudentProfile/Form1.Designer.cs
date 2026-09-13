@@ -29,23 +29,35 @@
         private void InitializeComponent()
         {
             this.label = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label
             // 
             this.label.AutoSize = true;
             this.label.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label.Location = new System.Drawing.Point(1, 9);
+            this.label.Location = new System.Drawing.Point(12, 9);
             this.label.Name = "label";
             this.label.Size = new System.Drawing.Size(244, 20);
             this.label.TabIndex = 0;
             this.label.Text = "Student Profile - GitHub Beginner Lab";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(194, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Contact Number: 09512826283";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(334, 117);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.label);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Label label;
+        private System.Windows.Forms.Label label1;
     }
 }
 
